@@ -51,7 +51,7 @@ visualvm --jdkhome /Users/markox/.sdkman/candidates/java/current/
 
 - As you can verify in monitor tab, Micronaut keeps better memory consumption.
 
-- Regarding to number of requests processed ~27.7% more request for Micronaut, something to mention is that very few times SpringBoot throws and error *connection reset by peer*.
+- Regarding to number of requests processed ~27.7% more request for Micronaut, something to mention is that very few times SpringBoot throws an error *connection reset by peer*.
 
 - In terms of CPU usage is quite fair for both of them.
 
@@ -59,7 +59,7 @@ visualvm --jdkhome /Users/markox/.sdkman/candidates/java/current/
 
 - About number of threads is not clear, sometimes SpringBoot runs more some others Micronaut does run more
 
-- Micronaut has faster startup most of the times, thus SpringBoot very few times was pretty close.
+- Micronaut has faster startup most of the times, but SpringBoot very few times was pretty close.
 
 ### Max head memory:
 
