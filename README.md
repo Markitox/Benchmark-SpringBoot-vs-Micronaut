@@ -74,7 +74,13 @@ SpringBoot: 1,934,000
 Micronaut:  2,678,041
 
 
-Overall Micronaut has been having better head memory consuption over
+Overall Micronaut has been having better head memory consumption and able to process way more request than SpringBoot.
+
+### Micronaut monitor
+![Micronaut](screenshots/micronaut126.png)
+
+### SpringBoot monitor
+![SpringBoot](screenshots/springboot211.png)
 
 [load_test]: https://gist.github.com/Markitox/9c178e12de45df114142cd568dde3876
 [VisualVM]: https://visualvm.github.io/
