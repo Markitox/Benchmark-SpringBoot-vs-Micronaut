@@ -61,26 +61,43 @@ visualvm --jdkhome /Users/markox/.sdkman/candidates/java/current/
 
 - Micronaut has faster startup most of the times, but SpringBoot very few times was pretty close.
 
+### Update new framework versions
+
+- This new bersion of microanut loads a little more classes than SpringBoot 2.3.0 but less than previous version 
+
+- App startup still getting better for both framewoks but Micronaut almost hitting 1 second barrier
+
+- Memory consumption Micronaut got better performance over all by keeping solid memory head usage while SpringBoot went a little higher than previous version
+
 ### Max head memory:
 
-SpringBoot: 2079326208 B (~1.9 Gb)
+SpringBoot 2.2.1: 2079326208 B (~1.9 Gb)
+SpringBoot 2.3.0: 2458910720 B (~2.3 Gb)
 
-Micronaut:  1074266112 B (~1Gb)
+Micronaut 1.2.6:  1074266112 B (~1Gb)
+Micronaut 1.3.5:  774373376 B (~738.5Mb)
 
 ### Total Request:
 
-SpringBoot: 1,934,000
+SpringBoot 2.2.1: 1,934,000
+SpringBoot 2.3.0: 1,921,902
 
-Micronaut:  2,678,041
-
+Micronaut 1.2.6:  2,678,041
+Micronaut 1.3.5:  2,846,333
 
 Overall Micronaut has been having better head memory consumption and able to process way more request than SpringBoot.
 
-### Micronaut monitor
+### Micronaut 1.2.6 monitor
 ![Micronaut](screenshots/micronaut126.png)
 
-### SpringBoot monitor
+### Micronaut 1.3.5 monitor
+![Micronaut](screenshots/micronaut135.png)
+
+### SpringBoot 2.2.1 monitor
 ![SpringBoot](screenshots/springboot211.png)
+
+### SpringBoot 2.3.0 monitor
+![SpringBoot](screenshots/springboot230.png)
 
 [load_test]: https://gist.github.com/Markitox/9c178e12de45df114142cd568dde3876
 [VisualVM]: https://visualvm.github.io/
