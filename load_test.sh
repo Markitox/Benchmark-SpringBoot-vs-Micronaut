@@ -7,13 +7,13 @@
 
 start=`date +%s`
 
-ENDPOINT=http://127.0.0.1:8080/api/helloWorld
+ENDPOINT=http://127.0.0.1:8080/helloWorld
 
 echo "ENDPOINT: $ENDPOINT"
 
 echo '==> Simple request'
 
-http :8080/api/helloWorld
+http :8080/helloWorld
 
 echo '==> First load'
 
@@ -39,7 +39,7 @@ wrk -c 100 -d 30s -t 10 $ENDPOINT
 
 echo '==> Last simple request'
 
-http :8080/api/helloWorld
+http :8080/helloWorld
 
 end=`date +%s`
 
