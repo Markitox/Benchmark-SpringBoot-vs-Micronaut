@@ -61,7 +61,7 @@ visualvm --jdkhome /Users/markox/.sdkman/candidates/java/current/
 
 - Micronaut has faster startup most of the times, but SpringBoot very few times was pretty close.
 
-### Update new framework versions
+### After update framework versions
 
 - This new bersion of microanut loads a little more classes than SpringBoot 2.3.0 but less than previous version 
 
