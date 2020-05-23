@@ -71,19 +71,19 @@ visualvm --jdkhome /Users/markox/.sdkman/candidates/java/current/
 
 ### Max head memory:
 
-SpringBoot 2.2.1: 2079326208 B (~1.9 Gb)
-SpringBoot 2.3.0: 2458910720 B (~2.3 Gb)
+- SpringBoot 2.2.1: 2079326208 B (~1.9 Gb)
+- SpringBoot 2.3.0: 2458910720 B (~2.3 Gb)
 
-Micronaut 1.2.6:  1074266112 B (~1Gb)
-Micronaut 1.3.5:  774373376 B (~738.5Mb)
+- Micronaut 1.2.6:  1074266112 B (~1Gb)
+- Micronaut 1.3.5:  774373376 B (~738.5Mb)
 
 ### Total Request:
 
-SpringBoot 2.2.1: 1,934,000
-SpringBoot 2.3.0: 1,921,902
+- SpringBoot 2.2.1: 1,934,000
+- SpringBoot 2.3.0: 1,921,902
 
-Micronaut 1.2.6:  2,678,041
-Micronaut 1.3.5:  2,846,333
+- Micronaut 1.2.6:  2,678,041
+- Micronaut 1.3.5:  2,846,333
 
 Overall Micronaut has been having better head memory consumption and able to process way more request than SpringBoot.
 
