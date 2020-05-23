@@ -63,11 +63,14 @@ visualvm --jdkhome /Users/markox/.sdkman/candidates/java/current/
 
 ### After update framework versions
 
-- This new bersion of microanut loads a little more classes than SpringBoot 2.3.0 but less than previous version 
+- The biggest difference and what outstands from Micronaut is the number of requests.
 
-- App startup still getting better for both framewoks but Micronaut almost hitting 1 second barrier
+- This new version of microanut loads a little more classes than SpringBoot 2.3.0 but less than previous version.
 
-- Memory consumption Micronaut got better performance over all by keeping solid memory heap usage while SpringBoot went a little higher than previous version
+- App startup still getting better for both framewoks but Micronaut almost hitting 1 second barrier.
+
+- Memory consumption Micronaut got better performance over all by keeping solid memory heap usage while SpringBoot went a little higher than previous version.
+
 
 ### Max heap memory:
 
