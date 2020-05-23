@@ -67,9 +67,9 @@ visualvm --jdkhome /Users/markox/.sdkman/candidates/java/current/
 
 - App startup still getting better for both framewoks but Micronaut almost hitting 1 second barrier
 
-- Memory consumption Micronaut got better performance over all by keeping solid memory head usage while SpringBoot went a little higher than previous version
+- Memory consumption Micronaut got better performance over all by keeping solid memory heap usage while SpringBoot went a little higher than previous version
 
-### Max head memory:
+### Max heap memory:
 
 - SpringBoot 2.2.1: 2079326208 B (~1.9 Gb)
 - SpringBoot 2.3.0: 2458910720 B (~2.3 Gb)
@@ -85,7 +85,7 @@ visualvm --jdkhome /Users/markox/.sdkman/candidates/java/current/
 - Micronaut 1.2.6:  2,678,041
 - Micronaut 1.3.5:  2,846,333
 
-Overall Micronaut has been having better head memory consumption and able to process way more request than SpringBoot.
+Overall Micronaut has been having better heap memory consumption and able to process way more request than SpringBoot.
 
 # Screenshots 
 
