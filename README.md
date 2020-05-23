@@ -87,11 +87,18 @@ Micronaut 1.3.5:  2,846,333
 
 Overall Micronaut has been having better head memory consumption and able to process way more request than SpringBoot.
 
+# Screenshots 
+
+## Micronaut
+
 ### Micronaut 1.2.6 monitor
 ![Micronaut](screenshots/micronaut126.png)
 
 ### Micronaut 1.3.5 monitor
 ![Micronaut](screenshots/micronaut135.png)
+
+
+# SpringBoot
 
 ### SpringBoot 2.2.1 monitor
 ![SpringBoot](screenshots/springboot211.png)
